@@ -1,0 +1,297 @@
+Started GET "/" for 127.0.0.1 at 2018-08-03 16:58:02 +0200
+  [1m[35m (17.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (19.0ms)
+Completed 200 OK in 235ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-08-03 16:58:05 +0200
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-03 17:03:06 +0200
+  
+SyntaxError (C:/Sites/projetweb/projetweb/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/inscription' to:'pages#inscription'
+                       ^):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/inscription" for 127.0.0.1 at 2018-08-03 17:03:40 +0200
+  
+SyntaxError (C:/Sites/projetweb/projetweb/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/inscription' to:'pages#inscription'
+                       ^):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/inscription" for 127.0.0.1 at 2018-08-03 17:04:31 +0200
+  
+SyntaxError (C:/Sites/projetweb/projetweb/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/inscription' to:'pages#inscription'
+                       ^):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started PUT "/__web_console/repl_sessions/f80b3a5d06179440fa53559f6a4184a0" for 127.0.0.1 at 2018-08-03 17:04:45 +0200
+Started GET "/inscription" for 127.0.0.1 at 2018-08-03 17:07:05 +0200
+  
+SyntaxError (C:/Sites/projetweb/projetweb/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/inscription' to:'pages#inscription'
+                       ^):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/inscription" for 127.0.0.1 at 2018-08-03 17:07:53 +0200
+  
+SyntaxError (C:/Sites/projetweb/projetweb/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/inscription' to:'pages#inscription'
+                       ^):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/inscription" for 127.0.0.1 at 2018-08-03 17:08:16 +0200
+Processing by PagesController#inscription as HTML
+  Rendering pages/inscription.html.erb within layouts/application
+  Rendered pages/inscription.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 585ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (require_tree argument must be a directory):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/cable.js:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__378240180_21524580'
+Started GET "/" for 127.0.0.1 at 2018-08-05 20:52:17 +0200
+  [1m[35m (19.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (19.0ms)
+Completed 200 OK in 210ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-08-05 20:52:18 +0200
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-05 20:52:28 +0200
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#inscription as HTML
+  Rendering pages/inscription.html.erb within layouts/application
+  Rendered pages/inscription.html.erb within layouts/application (273.8ms)
+Completed 500 Internal Server Error in 367ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x52a7c48>:0x52a5c08>):
+    1: <%= post.finnd(1) %>
+  
+app/views/pages/inscription.html.erb:1:in `_app_views_pages_inscription_html_erb___956218146_43345428'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-05 20:54:10 +0200
+Processing by PagesController#inscription as HTML
+  Rendering pages/inscription.html.erb within layouts/application
+  Rendered pages/inscription.html.erb within layouts/application (283.8ms)
+Completed 500 Internal Server Error in 376ms (ActiveRecord: 9.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `finnd' for Post(id_posts: integer, artile_posts: text, date_posts: date):Class
+Did you mean?  find):
+    1: <%= Post.finnd(1) %>
+  
+app/views/pages/inscription.html.erb:1:in `_app_views_pages_inscription_html_erb___956218146_79594848'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-05 20:54:51 +0200
+Processing by PagesController#inscription as HTML
+  Rendering pages/inscription.html.erb within layouts/application
+  Rendered pages/inscription.html.erb within layouts/application (166.9ms)
+Completed 500 Internal Server Error in 269ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `Post' for #<#<Class:0x97d0580>:0x6f10470>):
+    1: <%= Post(1) %>
+  
+app/views/pages/inscription.html.erb:1:in `_app_views_pages_inscription_html_erb___956218146_58230048'
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mPost Load (19.0ms)[0m  [1m[34mSELECT  `posts`.* FROM `posts` WHERE `posts`.`id_posts` = 1 LIMIT 1[0m
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT  `posts`.* FROM `posts` WHERE `posts`.`id_posts` = 1 LIMIT 1[0m
+Started GET "/" for 127.0.0.1 at 2018-08-05 20:58:54 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 111ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-05 20:59:02 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 115ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inscrpiton" for 127.0.0.1 at 2018-08-05 20:59:12 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/inscrpiton"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-05 20:59:36 +0200
+Processing by PagesController#inscription as HTML
+  Rendering pages/inscription.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT  `posts`.* FROM `posts` WHERE `posts`.`id_posts` = 1 LIMIT 1[0m
+  ↳ app/views/pages/inscription.html.erb:1
+  Rendered pages/inscription.html.erb within layouts/application (378.8ms)
+Completed 500 Internal Server Error in 823ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (require_tree argument must be a directory):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/cable.js:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__672558777_41275596'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-05 21:07:31 +0200
+  
+ArgumentError ('Pages' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-05 21:12:50 +0200
+  [1m[35m (102.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/ruby/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#inscription as HTML
+  Rendering pages/inscription.html.erb within layouts/application
+  [1m[36mPost Load (26.0ms)[0m  [1m[34mSELECT  `posts`.* FROM `posts` WHERE `posts`.`id_posts` = 1 LIMIT 1[0m
+  ↳ app/views/pages/inscription.html.erb:1
+  Rendered pages/inscription.html.erb within layouts/application (266.8ms)
+Completed 500 Internal Server Error in 565ms (ActiveRecord: 179.9ms)
+
+
+  
+ActionView::Template::Error (require_tree argument must be a directory):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/cable.js:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__672558777_112063332'
+Started GET "/inscription" for 127.0.0.1 at 2018-08-05 21:16:36 +0200
+Processing by PagesController#inscription as HTML
+  Rendering pages/inscription.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT  `posts`.* FROM `posts` WHERE `posts`.`id_posts` = 1 LIMIT 1[0m
+  ↳ app/views/pages/inscription.html.erb:1
+  Rendered pages/inscription.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 441ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (require_tree argument must be a directory):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/cable.js:6
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__672558777_110630808'

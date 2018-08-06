@@ -1,0 +1,3 @@
+class Avoir < ApplicationRecord 
+    
+end

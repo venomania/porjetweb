@@ -1,0 +1,10 @@
+<% @Post.each do |post| %>
+<body class="black">
+    <div class="contour">
+        <p> <%= post.artile_posts %><p>
+            <p>
+                <a href="<%= post_path(post.id_posts)%>" class="btn btn-info">plus</a>
+            <p>
+    </div>
+<body>
+<% end%>

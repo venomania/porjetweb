@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `article` (
 
 --
 -- Structure de la table `avoir`
---
+--a
 
 DROP TABLE IF EXISTS `avoir`;
 CREATE TABLE IF NOT EXISTS `avoir` (

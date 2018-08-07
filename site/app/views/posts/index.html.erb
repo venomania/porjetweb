@@ -1,9 +1,9 @@
-<% @Post.each do |post| %>
+<% @Gener.each do |gener| %>
 <body class="black">
     <div class="contour">
-        <p> <%= post.artile_posts %><p>
+        <p> <%= gener.nom_gener %><p>
             <p>
-                <a href="<%= post_path(post.id_posts)%>" class="btn btn-info">plus</a>
+                <a href="<%= post_path(gener.id_gener)%>" class="btn btn-info">plus</a>
             <p>
     </div>
 <body>

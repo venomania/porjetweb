@@ -1,0 +1,3 @@
+class Gener < ApplicationRecord 
+    
+end

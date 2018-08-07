@@ -1,9 +1,9 @@
 class PostsController < ApplicationController
     def index
-        @Post = Post.all
+        @Gener = Gener.all
     end
     def show
-        @post = Post.find(params[:id])
-        
+        @Gener = Gener.find(params[:id])
+        @Article = Article.where(id_gener: Gener.find(params[:id]))
     end
 end

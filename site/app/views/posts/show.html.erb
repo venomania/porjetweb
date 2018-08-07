@@ -1,6 +1,8 @@
+<% @Article.each do |article| %>
 <body class="black">
     <div class="contour">
-        <h1><%= @post.id_posts %><h1>
-        <p><%= @post.artile_posts %></P>
+        <h3><%= article.titre_article %></h3>
+        <p><%= article.contenus_articles %></P>
     </div>
 <body>
+<% end%>
